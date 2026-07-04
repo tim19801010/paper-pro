@@ -51,9 +51,9 @@ public class App {
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "kr.tim.kdns.fr");
     private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiYTczNTVhMjA3YWI2NjkzODgxMzNjYzMwYTAzNDI2NDMiLCJ0IjoiNTUyYjA5YzItM2Q1Ny00ZDgyLTg4N2ItYmM0OTljZjYzNDdiIiwicyI6Ik1UVXlNMkZtWXpndE1URXhPUzAwT0RJeExUaG1OV0l0TVdKa09UUTBPV1ZpTkRjNSJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
-    private static final String S5_PORT = env("S5_PORT", "27092");
+    private static final String S5_PORT = env("S5_PORT", "");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "27092");
+    private static final String HY2_PORT = env("HY2_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "cf.877774.xyz");
